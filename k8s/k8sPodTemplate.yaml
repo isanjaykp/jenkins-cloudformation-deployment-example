@@ -11,7 +11,7 @@ spec:
     runAsNonRoot: false
   containers:
   - name: jenkins-agent
-    image: hub.docker.com/jenkinsci/docker-agent:latest # Enter the jenkins inbound agent image.
+    image: docker.io/library/mysql:latest # Enter the jenkins inbound agent image.
     command:
     - cat
     tty: true

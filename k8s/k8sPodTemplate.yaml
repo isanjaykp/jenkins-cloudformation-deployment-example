@@ -4,7 +4,7 @@ metadata:
   labels:
     some-label: jenkins-pipeline
 spec:
-  serviceAccountName: jenkins-agent # Enter the service account name being used
+  serviceAccountName: default # Enter the service account name being used
   securityContext:
     runAsUser: 0
     fsGroup: 0

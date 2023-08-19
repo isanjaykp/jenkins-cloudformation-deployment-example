@@ -11,7 +11,7 @@ spec:
     runAsNonRoot: false
   containers:
   - name: jenkins-agent
-    image: jenkinsci/docker-agent # Enter the jenkins inbound agent image.
+    image: docker.io/jenkinsci/docker-agent # Enter the jenkins inbound agent image.
     command:
     - cat
     tty: true

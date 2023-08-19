@@ -11,7 +11,7 @@ spec:
     runAsNonRoot: false
   containers:
   - name: jenkins-agent
-    image: docker.io/library/mysql:latest # Enter the jenkins inbound agent image.
+    image: hub.docker.com/r/dwolla/jenkins-agent-awscli:latest # Enter the jenkins inbound agent image.
     command:
     - cat
     tty: true
